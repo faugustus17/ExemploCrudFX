@@ -243,7 +243,7 @@ public class BancosDeDadosController implements Initializable
 		ArrayList<BancosDeDados> abdVazia = new ArrayList<BancosDeDados>();
 		ObservableList obl = FXCollections.observableArrayList(abdVazia);	
 		this.tableViewBancosDados.setItems(obl);
-		TipoBD tbd = new TipoBD();
+		//TipoBD tbd = new TipoBD();
 		TipoBancoDAO tbdDAO = new TipoBancoDAO();
 		BancosDeDados bd = new BancosDeDados();
 		BancosDeDadosDAO bdDAO = new BancosDeDadosDAO();
